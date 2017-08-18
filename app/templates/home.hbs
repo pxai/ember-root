@@ -1,3 +1,17 @@
 <h2>This is home</h2>
 {{input type="text" class="search-input" placeholder="Search for courses"}}
+<div>
+    {{#each model.courses as |course| }}
+        {{#if course.available}}
+            <div>
+                <h3 {{action "courseDetail" course}}>{{course.name}}</h3>
+                <p>{{course.description}}</p>
+
+               {{teacher-detail teacher=course.teacher}}
+               {{course-rating course.rating}}
+               {{course-level title="Difficulty" level=course.level}}
+            </div>
+        {{/if}}
+    {{/each}}
+</div>
 {{outlet}}

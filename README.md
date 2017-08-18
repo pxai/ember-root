@@ -24,6 +24,27 @@ You will need the following things properly installed on your computer.
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
 ### Code Generators
+Generators used.
+This one generates route+controller+template
+```
+ ember generate route home
+```
+
+This one generates just a template
+```
+ ember generate template index
+```
+
+This generates a reusable component
+```
+ ember generate component course-level
+```
+
+This generates a helper
+```
+ember generate helper course-rating
+
+```
 
 Make use of the many generators for code, try `ember help generate` for more details
 
