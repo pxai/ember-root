@@ -10,6 +10,7 @@
                {{teacher-detail teacher=course.teacher}}
                {{course-rating course.rating}}
                {{course-level title="Difficulty" level=course.level}}
+               {{#link-to "course" course.id class="navbar-brand"}}See course{{/link-to}}
             </div>
         {{/if}}
     {{/each}}
