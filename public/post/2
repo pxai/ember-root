@@ -1,0 +1,7 @@
+ { 
+     post : {
+            "id": 2,
+            "title" : "The end is near",
+            "body": "Repent everything will be over soon"
+        }
+ }

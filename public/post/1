@@ -1,0 +1,7 @@
+ { 
+     post : {
+            "id": 1,
+            "title" : "I rule, you suck",
+            "body": "Fresh news from the web"
+        }
+ }

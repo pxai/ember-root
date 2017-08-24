@@ -1,0 +1,11 @@
+<h2>Latest news</h2>
+<div>
+    {{#each model.posts as |post| }}
+            <div>
+                <h3>{{post.title}}</h3>
+                <p>{{post.body}}</p>
+               {{#link-to "post" post.id class="navbar-brand"}}Read more{{/link-to}}
+            </div>
+    {{/each}}
+</div>
+{{outlet}}

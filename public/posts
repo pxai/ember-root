@@ -1,0 +1,32 @@
+ { 
+     "data": [
+    {
+        "type": "post",
+        "id": 1,
+        "attributes":
+        {
+            "title" : "I rule, you suck",
+            "body": "Fresh news from the web"
+        }
+    },    
+    {
+        "type": "post",
+        "id": 2,
+        "attributes":
+        {
+            "id": 2,
+            "title" : "The end is near",
+            "body": "Repent everything will be over soon"
+        }
+    }, 
+    {
+        "type": "post",
+        "id": 3,
+        "attributes":       
+        {
+            "id": 3,
+            "title" : "The dead walk, again",
+            "body": "Grab your shotgun, your swords and axes"
+        }
+    }]
+  }
